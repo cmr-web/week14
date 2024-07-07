@@ -22,6 +22,14 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
+## Make migrations
+
+```bash
+py manage.py makemigrations 
+py manage.py migrate
+
+```
+
 ## Runserver
 
 ```bash
